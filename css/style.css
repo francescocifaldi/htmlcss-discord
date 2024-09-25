@@ -87,10 +87,36 @@ a img{
     padding: 5px 20px;
 }
 
-.light-bg {
-    background-color:gainsboro;
+#small{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
 }
 
-.gray-bg{
-    background-color: grey;
+#small .row{
+    min-height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+#small .col-100{
+    max-width: 800px;
+}
+
+#small h1, #small p{
+    padding-bottom: 20px;
+    line-height: 1.75em;
+}
+
+.btn-dark{
+    background-color: black;
+    color: white;
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
 }
