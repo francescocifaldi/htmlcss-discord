@@ -152,8 +152,7 @@ footer{
     line-height: 2em;
 }
 
-
-footer ul :first-child {
+h2{
     color: #7289DA;
-    font-weight: bold;
 }
+
