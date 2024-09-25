@@ -130,7 +130,7 @@ img{
 }
 
 .btn-purple{
-    background-color: #255EE9;
+    background-color: #7289DA;
     color: white;
 }
 
@@ -140,4 +140,20 @@ img{
     background-size: auto 50px;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.col-20{
+    width: calc(100%/5);
+}
+
+footer{
+    background-color: #23272A;
+    color: white;
+    line-height: 2em;
+}
+
+
+footer ul :first-child {
+    color: #7289DA;
+    font-weight: bold;
 }
