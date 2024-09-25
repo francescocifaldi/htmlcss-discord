@@ -25,6 +25,7 @@ a{
 .row{
     display: flex;
     flex-wrap: wrap;
+    padding: 50px 0;
 }
 
 .col-100{
@@ -36,21 +37,19 @@ a{
 }
 
 .col-33{
-    width: calc(100% / 3);
+    max-width: calc(100% / 3);
+    flex-wrap: wrap;
+    padding: 50px 0;
 }
 
-.col-40{
-    width: 40%;
-}
-
-.col-15{
-    width: 15%;
+.col-33 h1{
+    font-size: xx-large;
+    padding-bottom: 20px;
 }
 
 .justify-between{
     justify-content: space-between;
 }
-
 
 .debug{
     border: 1px dotted black;
@@ -71,7 +70,7 @@ a{
     padding: 20px 0;
 }
 
-a img{
+img{
     display: block;
 }
 
@@ -119,4 +118,8 @@ a img{
     display: flex;
     gap: 20px;
     justify-content: center;
+}
+
+.light-bg{
+    background-color: ghostwhite;
 }
