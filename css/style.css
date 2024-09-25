@@ -4,67 +4,31 @@
     padding: 0;
 }
 
-header{
-    background-color: aquamarine;
-    padding: 20px 20px;
+html{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.navbar{
-    display: flex;
-    align-items: center;
-    background-color: orange;
-    justify-content: space-between;
-}
-
-ul {
+ul, ol {
     list-style: none;
 }
 
-.menu{
-    display: flex;
-    gap: 10px;
-}
-
-.little{
-    min-height: 300px;
-    max-width: 800px;
-    background-color: pink;
-    margin: auto;
+a{
+    color: currentColor;
+    text-decoration: none;
 }
 
 .container {
-    min-height: 400px;
     max-width: 1000px;
-    display: flex;
-    justify-content: center;
-    padding: 20px 0
-}
-
-#frame{
-    background-color: blue;
-    padding: 20px 0;
-}
-
-.light-bg {
-    background-color:gainsboro;
-}
-
-.gray-bg{
-    background-color: grey;
-}
-
-.big-container{
-    min-height: 1000px;
-}
-
-.debug{
-    border: 1px dotted black;
+    margin: 0 auto;
 }
 
 .row{
     display: flex;
     flex-wrap: wrap;
-    min-height: 400px;
+}
+
+.col-100{
+    width: 100%;
 }
 
 .col-66{
@@ -81,4 +45,52 @@ ul {
 
 .col-15{
     width: 15%;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+
+.debug{
+    border: 1px dotted black;
+}
+
+.menu{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.main-header .menu{
+    color: white;
+}
+
+.main-header{
+    background-color: #255EE9;
+    padding: 20px 0;
+}
+
+a img{
+    display: block;
+}
+
+.menu li a{
+    padding: 0px 12px;
+}
+
+.btn{
+    border-radius: 999px;
+    background-color: white;
+    color: black;
+    line-height: 30px;
+    padding: 5px 20px;
+}
+
+.light-bg {
+    background-color:gainsboro;
+}
+
+.gray-bg{
+    background-color: grey;
 }
