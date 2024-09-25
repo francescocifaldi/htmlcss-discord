@@ -123,3 +123,21 @@ img{
 .light-bg{
     background-color: ghostwhite;
 }
+
+#big .col-100 * {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.btn-purple{
+    background-color: #255EE9;
+    color: white;
+}
+
+.cta{
+    background-image: url(../img/stars.svg);
+    padding: 50px 0;
+    background-size: auto 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
